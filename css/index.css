@@ -1,0 +1,147 @@
+.header{
+	
+	width: 7.5rem;
+	height: 0.9rem;
+	background: #02a2aa;
+	
+}
+.header li:first-child{
+	
+	width: 1.05rem;
+	height: 0.9rem;
+	
+}
+
+.header li img{
+	
+	height: 0.47rem;
+	width: 0.47rem;
+	display: block;
+	margin: 0 auto;
+	padding-top: 0.1REM;
+}
+.header li:first-child p{
+	width: 1.05rem;
+	text-align: center;
+	font-size: 0.18rem;
+	color: #FFF;
+	
+}
+.header li:last-child{
+	width: 5.43rem;
+	height:0.9rem ;
+}
+.header .op{
+	width: 5.43rem;
+	height: 0.68rem;
+	border-radius: 0.15rem;
+	background: #fff;
+	margin-top: 0.12rem;
+}
+.header li input{
+	width: 5.43rem;
+	height: 0.68rem;
+	outline: none;
+	border: none;
+	border-radius: 0.15rem;
+	text-indent: 0.7rem;
+	font-size: 0.27rem;
+	background: url(../img/fdj.png) no-repeat;
+	background-size: 0.45rem 0.47rem;
+	background-position-y: 0.11rem;
+	background-position-x: 0.21rem;
+}
+.header li{
+	float: left;
+}
+.swiper-container{
+	width: 7.5rem;
+	height: 3rem;
+}
+.swiper-container img{
+	width: 7.5rem;
+	height: 3rem;
+	
+}
+.three{
+	width: 7.5rem;
+	height: 1.4rem;
+	background: #fff;
+}
+.three ul li{
+	
+	height: 1.2rem;
+	width: 2.5rem;
+	float: left;
+	list-style: none;
+	text-align: center;
+	line-height: 0.7rem;
+	border-bottom: 0.1rem solid #f6f6f6;
+	border-top: 0.1rem solid  #f6f6f6;
+	
+}
+.three ul li img{
+	margin-top: 0.05rem;
+	width: 1.08rem;
+	height:1.08rem;
+}
+
+.con{
+	width: 7.5rem;
+}
+.con li{
+	width: 7.5rem;
+	height: 2rem;
+	position: relative;
+}
+.con img{
+	width: 7.5rem;
+	height: 2rem;
+}
+.con .mengban{
+	position: absolute;
+	top: 0rem;
+	width: 7.5rem;
+	height: 2rem;
+	background: #000000;
+	opacity: 0.5;
+	
+}
+.con .word{
+	position: absolute;
+	top: 0;
+	width: 7.5rem;
+	height: 2rem;
+	color: #fff;
+	font-weight: 700;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 2rem;
+}
+.footer{
+	width: 7.5rem;
+	height: 1rem;
+	position: fixed;
+	background: #fff; ;
+	bottom: 0;
+}
+.footer ul li{
+	height: 1rem;
+	width: 1.5rem;
+	float: left;
+	list-style: none;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 0.15rem;
+	
+}
+.footer ul li img{
+	width: 0.45rem;
+	height: 0.45rem;
+	
+}
+.footer ul li p{
+	color:#ccc;
+	line-height: 0.5rem;
+	
+}

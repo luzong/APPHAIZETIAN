@@ -1,0 +1,73 @@
+.header{
+	width: 7.5rem;
+	height: 0.9rem;
+	position: fixed;
+	background: #02a2aa;
+	top: 0;
+
+}
+
+.header ul{
+
+    margin: 0 auto;
+	height: 0.7rem;
+	margin-top:0.09rem;
+	width: 2rem;
+	border:1px solid #fff;
+	border-radius: 5px;
+	font-size: 16px;
+}
+.header .op{
+    color:#fff;
+    float: left;
+    height: 0.7rem;
+	width: 1rem;
+	text-align: center;
+	line-height: 0.7rem;
+}
+.header .oo{
+    
+    background:#fff;
+    color:#01a2aa;
+    height: 0.7rem;
+	width: 1rem;
+	float: right;
+	text-align: center;
+	line-height: 0.7rem;
+}
+}
+.content{
+	height: 7.5rem;
+}
+.content ul img{
+	width: 7.5rem;
+	height: 3rem;
+}
+
+.footer{
+	width: 7.5rem;
+	height: 1rem;
+	position:fixed; 
+	bottom:0;
+	background: #fff;
+}
+.footer ul li{
+	height: 1rem;
+	width: 1.5rem;
+	float: left;
+	list-style: none;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 0.15rem;
+	
+}
+.footer ul li img{
+	width: 0.45rem;
+	height: 0.45rem;
+	
+}
+.footer ul li p{
+	color:#ccc;
+	line-height: 0.5rem;
+	
+}

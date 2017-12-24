@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    
+</head>
+<link rel="stylesheet" href="css/commen.css" />
+<link rel="stylesheet" href="css/gwc.css" />
+<link rel="stylesheet" href="css/swiper-3.4.2.min.css" />
+<body>
+			
+<!-- 导航栏 -->
+	<div class="header">
+		<ul>
+			<a href="index.html"><li class="op"><p><img src="./img/wodetoRight.png" style="width:10px;height: 15px;"></p></li></a>
+			<li><p class="oo">购物车</p></li>
+			<li class="ou"></li>
+		</ul>
+	</div>
+
+<!-- 内容 -->
+<div class="content">
+	<ul>   	
+	    <li class="li1">
+	    	<img src="./img/d0.png" style="width:18px;height: 18px;">
+	    	<img src="./img/d1.png" style="width:18px;height: 18px;">
+	    </li>
+	    <li class="li2"><img src="./img/lj.png" ></li>
+	    <li class="li3">
+					<p>超辣辣椒15g/袋 </p>
+					<p class="shu"> ×1 </p>
+					<ul id="num">
+						<li class="up">+</li>
+						<li class="number">1</li>
+						<li class="down">-</li>
+					</ul>
+					<p class="money"> ￥5.00</p>
+		</li>
+	    <li class="li4"><p>编辑</p><ul class="sc"><li id="ss">删除</li></ul></li>
+	</ul>
+	<ul>   	
+	    <li class="li1">
+	    	<img src="./img/d0.png" style="width:18px;height: 18px;">
+	    	<img src="./img/d1.png" style="width:18px;height: 18px;">
+	    </li>
+	    <li class="li2"><img src="img/img2.png" ></li>
+	    <li class="li3">
+					<p>大酥梨1/个 </p>
+					<p class="shu"> ×1 </p>
+					<ul id="num">
+						<li class="up">+</li>
+						<li class="number">1</li>
+						<li class="down">-</li>
+					</ul>
+					<p class="money"> ￥5.00</p>
+		</li>
+	    <li class="li4"><p>编辑</p><ul class="sc"><li id="ss">删除</li></ul></li>
+	</ul>
+	<ul>   	
+	    <li class="li1">
+	    	<img src="./img/d0.png" style="width:18px;height: 18px;">
+	    	<img src="./img/d1.png" style="width:18px;height: 18px;">
+	    </li>
+	    <li class="li2"><img src="img/img3.png"></li>
+	    <li class="li3">
+					<p>人身果1/颗</p>
+					<p class="shu"> ×1 </p>
+					<ul id="num">
+						<li class="up">+</li>
+						<li class="number">1</li>
+						<li class="down">-</li>
+					</ul>
+					<p class="money"> ￥5.00</p>
+		</li>
+	    <li class="li4"><p>编辑</p><ul class="sc"><li id="ss">删除</li></ul></li>
+	</ul>
+	  
+	  
+</div>
+	<div class="di">
+       <ul>
+          <li class="one1">
+          <img src="./img/d0.png" style="width:18px;height: 18px;">
+          <img src="./img/d1.png" style="width:18px;height: 18px;">
+          </li>
+          <li>全选</li>
+          <li>合计价格：</li>
+          <li>￥19.00</li>
+          <li>结算（1）</li>
+       </ul>
+	</div>
+<div class="footer">
+	<ul>
+		<li>
+			<a href="index.html"><img src="img/sy0.png"/>
+		    <p>首页</p></a>
+		</li>
+		<li>
+			<a href="cpsc.html"><img src="img/fl0.png"/>
+		    <p>分类</p></a>
+		</li>
+		<li>
+			<a href="zc.html"><img src="img/cc0.png"/>
+		    <p>众筹</p></a>
+		</li>
+		<li>
+			<a href="gwc.html"><img src="img/gwc1.png"/>
+		    <p>购物车</p></a>
+		</li>
+		<li>
+			<a href="wd.html"><img src="img/wd0.png"/>
+		    <p>我的</p></a>
+		</li>
+	</ul>
+</div>
+</body>
+<script type="text/javascript" src="js/buju.js" ></script>
+<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
+<script>
+	$(".li4 p").on("click",function(){
+		if ($(this).text()=="编辑" ) {	
+		$(this).text("完成")
+		$(this).siblings(".sc").show()
+		$(this).parent().siblings(".li3").children(".shu").hide().siblings("#num").show()	
+	} else{	
+		$(this).text("编辑")
+		$(this).siblings(".sc").hide()
+		$(this).parent().siblings(".li3").children(".shu").show().siblings("#num").hide()	
+	}
+	})
+	$(".up").on("click",function(){
+	var i=$(this).siblings(".number").text()
+	    i++
+	$(this).siblings(".number").text(i)
+	$(this).siblings(".number").css("color","#000")
+//	console.log(TheWord)
+var wodrs=$(this).siblings(".number").text()
+	$(this).parent().siblings(".shu").text("×" + wodrs)
+	
+})
+
+$(".down").on("click",function(){
+	var i=$(this).siblings(".number").text()
+	if ($(this).siblings(".number").text() == 1) {
+		$(this).siblings(".number").css("color","#ccc")
+	} else{	
+		i--
+		$(this).siblings(".number").text(i)
+		$(this).siblings(".number").css("color","#000")
+	}
+		
+		var wodrs=$(this).siblings(".number").text()
+		$(this).parent().siblings(".shu").text( "×" + wodrs)
+})
+$(".sc").on("click",function(){
+	$(this).parent().parent().remove()	
+})
+$(".li1 img:nth-child(1)").on("click",function(){
+$(this).hide().siblings().css("display","block")		
+})
+$(".li1 img:nth-child(2)").on("click",function(){	
+	$(this).hide().siblings().css("display","block")	
+})
+$(".one1 img:nth-child(1)").on("click",function(){
+	$(this).hide().siblings().css("display","block")
+	$(".content .li1 img:nth-child(2)").css("display","block").siblings().hide()
+})
+$(".one1 img:nth-child(2)").on("click",function(){
+	$(this).hide().siblings().css("display","block")
+		$(".content .li1 img:nth-child(1)").css("display","block").siblings().hide()
+})
+</script>
+</html>

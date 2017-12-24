@@ -1,0 +1,152 @@
+*{
+	font-family: 微软雅黑;
+}
+body{
+	background: #f7f7f7;
+}
+.header{
+	width: 7.5rem;
+	height: 4.55rem;
+	position: fixed;
+	background: #02a2aa;
+	top: 0;
+	border-bottom: 0.24rem;
+}
+.header li{
+	width: 7.5rem
+	height: 0.7rem;
+    list-style: none;
+    float: left;
+
+}
+.header .w0{
+    width: 0.85rem;
+    height: 0.7rem;
+	
+}
+.header .w1{
+	width: 5.8rem;
+	height: 0.7rem;
+	line-height: 0.7rem;
+	font-size: 17px;
+    font-weight: bold;
+	color: #fff;
+	text-align: center;
+}
+.header .w2{
+	width: 0.65rem;
+	height: 0.7rem;
+    line-height: 0.7rem;
+    margin-right: 0.2rem;
+	text-align: center;
+}
+.header .tt{
+	width: 7.5rem;
+	height: 3.85rem;
+	border-radius: 0.85rem;
+}
+.header .t1{
+      text-align: center;
+      margin-top: 1.3rem;
+}
+.header .t2{
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	line-height: 1rem;
+	
+}
+.header .tt img{
+	width: 1.7rem;
+	height: 1.7rem;
+	border-radius: 0.85rem;
+}
+.content{
+	width: 7.5rem;
+	position: fixed;
+	top:4.79rem;
+	font-size: 16px;
+}
+.content .wddd{
+	width: 7.5rem;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	text-indent: 1em;
+	background: #fff;
+	margin-bottom: 0.04rem;
+}
+.content ul:nth-child(2) li{
+	list-style: none;
+	float: left;
+	width: 1.875rem;
+	height: 1rem;
+	line-height: 1rem;
+	text-align: center;
+	background: #fff;
+}
+.content ul:nth-child(3) li{
+	width: 7.5rem;
+	height: 0.8rem;
+	background: #fff;
+	margin-bottom: 0.04rem;
+}
+.content .wdzh{
+	width: 7.3rem;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	text-indent: 1em;
+	background:url(../img/wodetoRight.png) center right no-repeat,#fff;
+	background-size: 0.27rem 0.35rem;
+	margin-top: 1.08rem;
+}
+.content .wdsc{
+	width: 7.3rem;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	text-indent: 1em;
+	background:url(../img/wodetoRight.png) center right no-repeat,#fff;
+	background-size: 0.27rem 0.35rem;
+}
+.content .dzgl{
+	width: 7.3rem;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	text-indent: 1em;
+	background:url(../img/wodetoRight.png) center right no-repeat,#fff;
+	background-size: 0.27rem 0.35rem;
+}
+.content .wyzc{
+	width: 7.5rem;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	text-indent: 1em;
+	margin-top: 0.16rem;
+	background:#FFF;
+}
+.footer{
+	width: 7.5rem;
+	height: 1rem;
+	position:fixed; 
+	bottom:0;
+	background: #fff;
+}
+.footer ul li{
+	height: 1rem;
+	width: 1.5rem;
+	float: left;
+	list-style: none;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 0.15rem;
+	
+}
+.footer ul li img{
+	width: 0.45rem;
+	height: 0.45rem;
+	
+}
+.footer ul li p{
+	color:#ccc;
+	line-height: 0.5rem;
+	
+}
